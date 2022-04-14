@@ -9,11 +9,14 @@ import Lista from './components/Lista';
 import Lista2 from './components/Lista2';
 import { Lista3, Item } from './components/Lista3';
 import Formulario from './components/Formulario';
+import Hello from './components/Hello';
+import Hook from './components/Hook';
+import HookDeEfeito from './components/HookDeEfeito';
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
   <React.StrictMode>
-    <Formulario />
+    <HookDeEfeito></HookDeEfeito>
   </React.StrictMode>,
   document.getElementById('root')
 );
